@@ -42,5 +42,7 @@ sudo ap-hotspot stop
 ```bash
 alias hotspot='sudo ap-hotspot start'
 alias hotspot-stop='sudo ap-hotspot stop'
-alias unified-remote='hotspot && uf-remote' # Previamente hacer hecho un symlink uf-remote que apunte al engine
+
+# Previamente hacer un symlink uf-remote que apunte al engine
+alias unified-remote='hotspot && uf-remote' 
 ```
